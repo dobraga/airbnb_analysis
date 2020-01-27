@@ -2,7 +2,7 @@
 
 Os dados são referentes ao Estado do Rio de Janeiro e foram extraídos da [página inside Airbnb](http://insideairbnb.com/get-the-data.html). Essa análise terá o objetivo de realizar uma regressão para realizar a previsão do preço de uma noite da estadia.
 
-1. Estratégia de Modelagem  
+1. Estratégia de Modelagem
     
     Pela análise exploratória foram encontradas algumas inconsistências:
     
@@ -28,4 +28,5 @@ Os dados são referentes ao Estado do Rio de Janeiro e foram extraídos da [pág
 
 5. Evidências de um bom modelo
 
-    O modelo parece razoavel visto que mostra uma boa estabilidade nos erros.
+    O modelo não parece tão bem ajustado, pois além do aumento da variabilidade das previsões com o aumento do preço, o modelo aumenta o erro também.
+    Provavelmente falta a identificação de alguma variável para a melhor identificação dos alugueis mais caros.
